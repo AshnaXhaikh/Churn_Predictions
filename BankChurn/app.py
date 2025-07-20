@@ -29,7 +29,7 @@ st.markdown("Predict which customers are likely to churn from a bank.")
 st.markdown(
     """
     <div style="margin-top: 20px;">
-        <a href="https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc" target="_blank">
+        <a href="https://bank-customer-churn-pred-8tjb9fk.gamma.site/" target="_blank">
             <button style="
                 background-color: #4CAF50;
                 color: white;
