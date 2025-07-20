@@ -1,7 +1,6 @@
 # 💼 Customer Churn Prediction
 
 This project aims to predict customer churn using a machine learning classification model. Churn prediction helps businesses proactively identify customers at risk of leaving and take steps to retain them.
-
 ---
 
 
@@ -23,9 +22,9 @@ Access the live Streamlit app here:
 ---
 📄 Read the Full Documentation
 Learn more about the project, its data pipeline, model architecture, evaluation, and more in the detailed documentation:
-📘 [Read Full Gamma Documentation](https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc)
+📘 [Read Full Gamma Documentation](https://bank-customer-churn-pred-8tjb9fk.gamma.site/)
+
 ## 📁 Project Structure
----
 BankChurn/
 │
 ├── app.py # FastAPI or Streamlit app for deployment
