@@ -17,9 +17,15 @@ This project aims to predict customer churn using a machine learning classificat
 
 
 ---
-
+🚀 Try the App
+Access the live Streamlit app here:
+🔗[Open Streamlit App](https://churnpredictions-createdbyashna.streamlit.app)
+---
+📄 Read the Full Documentation
+Learn more about the project, its data pipeline, model architecture, evaluation, and more in the detailed documentation:
+📘 [Read Full Gamma Documentation](https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc)
 ## 📁 Project Structure
-
+---
 BankChurn/
 │
 ├── app.py # FastAPI or Streamlit app for deployment
