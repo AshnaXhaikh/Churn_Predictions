@@ -16,15 +16,36 @@ with open(scaler_path, 'rb') as f:
     scaler = pickle.load(f)
 
 # Streamlit UI
-st.title("Customer Churn Prediction App")
+import streamlit as st
 
+# Title
+st.title("💼 Bank Customer Churn Prediction")
+
+# Introduction
+st.markdown("""
+This project explores how machine learning helps predict customer churn in the banking sector.  
+It covers data preprocessing, model building, evaluation, and deployment.
+""")
+
+# 📄 Engaging Gamma Documentation Button
 st.markdown(
     """
-    <a href="https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc" target="_blank">
-        <button style="background-color:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;">
-            📄 View Gamma Documentation
-        </button>
-    </a>
+    <div style="text-align:center; margin-top: 20px; margin-bottom: 20px;">
+        <a href="https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc" target="_blank">
+            <button style="
+                background: linear-gradient(90deg, #0072ff 0%, #00c6ff 100%);
+                color: white;
+                font-size: 16px;
+                padding: 12px 24px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: transform 0.2s ease;
+            " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                📄 View Full Project Documentation
+            </button>
+        </a>
+    </div>
     """,
     unsafe_allow_html=True
 )
