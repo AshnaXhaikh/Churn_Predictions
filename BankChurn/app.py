@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-with open('churn_model.pkl', 'rb') as f:
+with open('churn_model_rf.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('scaler.pkl', 'rb') as f:
+with open('rf_scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 st.title("Customer Churn Predictor")
