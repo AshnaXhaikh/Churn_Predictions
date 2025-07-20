@@ -24,7 +24,7 @@ st.set_page_config(page_title="Bank Churn Prediction", layout="centered")
 
 
 st.title("💼 Bank Customer Churn Prediction")
-st.markdown("Predicting which bank customers are likely to leave — powered by machine learning.")
+st.markdown("Predict which customers are likely to churn from a bank.")
 
 st.markdown(
     """
