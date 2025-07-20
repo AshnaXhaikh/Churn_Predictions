@@ -19,7 +19,13 @@ with open(scaler_path, 'rb') as f:
 st.title("Customer Churn Prediction App")
 
 st.markdown(
-    "[📄 View Full Documentation](https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc)",
+    """
+    <a href="https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc" target="_blank">
+        <button style="background-color:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;">
+            📄 View Gamma Documentation
+        </button>
+    </a>
+    """,
     unsafe_allow_html=True
 )
 credit_score = st.number_input("Credit Score", min_value=300, max_value=900, step=1)
