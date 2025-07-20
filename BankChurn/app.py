@@ -18,6 +18,10 @@ with open(scaler_path, 'rb') as f:
 # Streamlit UI
 st.title("Customer Churn Prediction App")
 
+st.markdown(
+    "[📄 View Full Documentation](https://gamma.app/docs/Bank-Customer-Churn-Prediction-12hm02f12jtwndi?mode=doc)",
+    unsafe_allow_html=True
+)
 credit_score = st.number_input("Credit Score", min_value=300, max_value=900, step=1)
 gender = st.selectbox("Gender", ["Male", "Female"])
 age = st.number_input("Age", min_value=18, max_value=100)
